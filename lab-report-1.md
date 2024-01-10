@@ -1,16 +1,16 @@
 # Lab Report 1
 
-## cd
+## cd command
 * __No arguments__
 * __Directory argument__
 * __File Argument__
 
-## ls
+## ls command
 * __No arguments__
 * __Directory argument__
 * __File Argument__
 
-## cat
+## cat command
 * __No arguments__
 * __Directory argument__
 * __File Argument__
