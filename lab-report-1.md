@@ -1,16 +1,16 @@
 # Lab Report 1
 
-**cd**
+## cd
 * No arguments
 * Directory argument
 * File Argument
 
-**ls**
+## ls
 * No arguments
 * Directory argument
 * File Argument
 
-**cat**
+## cat
 * No arguments
 * Directory argument
 * File Argument
