@@ -2,15 +2,15 @@
 
 ## cd
 * __No arguments__
-* Directory argument
-* File Argument
+* __Directory argument__
+* __File Argument__
 
 ## ls
-* No arguments
-* Directory argument
-* File Argument
+* __No arguments__
+* __Directory argument__
+* __File Argument__
 
 ## cat
-* No arguments
-* Directory argument
-* File Argument
+* __No arguments__
+* __Directory argument__
+* __File Argument__
