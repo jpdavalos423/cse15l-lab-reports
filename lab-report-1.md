@@ -1,7 +1,7 @@
 # Lab Report 1
 
 ## cd
-* No arguments
+* __No arguments__
 * Directory argument
 * File Argument
 
