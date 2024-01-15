@@ -2,6 +2,7 @@
 
 ## cd command
 * __No arguments__
+  ![Image](cat no args.png)
 * __Directory argument__
 * __File Argument__
 
