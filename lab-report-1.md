@@ -6,6 +6,8 @@
   ![Image](cd-no-args.png)
   
   Directory: root
+
+  Running `cd` without any arguments result in no change as the command itself is defined as "change directory". However, if no directory is provided for the command to switch into, the terminal remains in the same directory in which it was called.
 * __Directory argument__
 
   ![Image](cd-direc-arg.png)
