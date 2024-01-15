@@ -15,7 +15,7 @@
 
   ![Image](cd-file-arg.png)
 
-  Directory: root
+  Directory: /lecture1
 ## ls command
 * __No arguments__
 
