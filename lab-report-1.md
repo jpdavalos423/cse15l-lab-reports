@@ -7,7 +7,7 @@
   
   Directory: root
 
-  Running `cd` without any arguments result in no change as the command itself is defined as "change directory". However, if no directory is provided for the command to switch into, the terminal remains in the same directory in which it was called.
+  Running `cd` without any arguments results in the terminal path being reset to the home directory. This behavior is intentional and is meant to be used to reset the terminal working location.
 
   This is not an error.
 * __Directory argument__
