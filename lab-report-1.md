@@ -8,11 +8,17 @@
   Directory: root
 
   Running `cd` without any arguments result in no change as the command itself is defined as "change directory". However, if no directory is provided for the command to switch into, the terminal remains in the same directory in which it was called.
+
+  This is not an error.
 * __Directory argument__
 
   ![Image](cd-direc-arg.png)
   
   Directory: root
+
+  Running `cd` with a directory argument does excactly what it is defined to do and directs the terminal in the direction of directory argument provided. Any commands given will now take place in the directory provided unless `cd` is called again pointing the terminal to another direction.
+
+  This is not an error.
 * __File Argument__
 
   ![Image](cd-file-arg.png)
