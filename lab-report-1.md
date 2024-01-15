@@ -4,6 +4,7 @@
 * __No arguments__
   
   ![Image](cd-no-args.png)
+  Directory: root
 * __Directory argument__
 
   ![Image](cd-direc-arg.png)
