@@ -24,6 +24,10 @@
   ![Image](cd-file-arg.png)
 
   Directory: /lecture1
+
+  Running `cd` with a file argument is not a valid command and will result in no change.
+
+  This is an error as the `cd` command expects a directory as an argument.
 ## ls command
 * __No arguments__
 
