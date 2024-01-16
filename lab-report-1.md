@@ -55,12 +55,18 @@
 
   Running the `ls` command on a file argument does not operate like the other ls commands and instead lists the information of the file. In this case, running the `ls` command returns the file path of the file passed as an argument.
 
+  This is not an error.
+
 ## cat command
 * __No arguments__
 
   ![Image](cat-no-args.png)
 
   Directory: root
+
+  Running the `cat` command with no arguments seems like mistake at first as it simply repeats the following thing that the user inputs back at them. However, this behavior is completely intentional is simply reads the input of the user rather than the file.
+
+  This is not an error.
 * __Directory argument__
 
   ![Image](cat-direc-arg.png)
