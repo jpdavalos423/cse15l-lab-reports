@@ -53,7 +53,7 @@
   
   Directory: root
 
-  Running the `ls` command on a file argument does not operate like the other 
+  Running the `ls` command on a file argument does not operate like the other ls commands and instead lists the information of the file. In this case, running the `ls` command returns the file path of the file passed as an argument.
 
 ## cat command
 * __No arguments__
