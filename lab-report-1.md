@@ -34,16 +34,26 @@
   ![Image](ls-no-args.png)
   
   Directory: root
+
+  Running `ls` with no arguments will list the contents of the current directory.
+
+  This is not an error.
 * __Directory argument__
 
   ![Image](ls-direc-arg.png)
   
   Directory: root
+
+  Running `ls` with a directory as an arugment will list the contents inside of that directory. The directory path will remain the same and does not change like the `cd` command.
+
+  This is not an error.
 * __File Argument__
 
   ![Image](ls-file-arg.png)
   
   Directory: root
+
+  Running the `ls` command on a file argument does not operate like the other 
 
 ## cat command
 * __No arguments__
