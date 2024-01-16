@@ -72,8 +72,16 @@
   ![Image](cat-direc-arg.png)
 
   Directory: root
+
+  Running the `cat` command on a directory argument is not the proper usage of the command as it is meant to be used on files and display their contents. The `cat` command is not able to display the contents of a directory.
+
+  This is an error as the `cat` command has no way of diaplaying the contents of directories.
 * __File Argument__
 
   ![Image](cat-file-arg.png)
 
   Directory: root
+
+  Running the `cat` command on a file argument is the proper usage of the command and it is meant to display the conntents of the file or files which were passed along as arguments.
+
+  This is not an error.
