@@ -3,7 +3,7 @@
 ## cd command
 * __No arguments__
   
-  ![Image](cd-no-args.png)
+  ![Image](lab-report-1-pics/cd-no-args.png)
   
   Directory: `/home`
 
@@ -12,7 +12,7 @@
   This is not an error.
 * __Directory argument__
 
-  ![Image](cd-direc-arg.png)
+  ![Image](lab-report-1-pics/cd-direc-arg.png)
   
   Directory: `/home`
 
@@ -21,7 +21,7 @@
   This is not an error.
 * __File Argument__
 
-  ![Image](cd-file-arg.png)
+  ![Image](lab-report-1-pics/cd-file-arg.png)
 
   Directory: `/home/lecture1`
 
@@ -32,7 +32,7 @@
 ## ls command
 * __No arguments__
 
-  ![Image](ls-no-args.png)
+  ![Image](lab-report-1-pics/ls-no-args.png)
   
   Directory: `/home`
 
@@ -41,7 +41,7 @@
   This is not an error.
 * __Directory argument__
 
-  ![Image](ls-direc-arg.png)
+  ![Image](lab-report-1-pics/ls-direc-arg.png)
   
   Directory: `/home`
 
@@ -50,7 +50,7 @@
   This is not an error.
 * __File Argument__
 
-  ![Image](ls-file-arg.png)
+  ![Image](lab-report-1-pics/ls-file-arg.png)
   
   Directory: `/home`
 
@@ -61,7 +61,7 @@
 ## cat command
 * __No arguments__
 
-  ![Image](cat-no-args.png)
+  ![Image](lab-report-1-pics/cat-no-args.png)
 
   Directory: `/home`
 
@@ -70,7 +70,7 @@
   This is not an error.
 * __Directory argument__
 
-  ![Image](cat-direc-arg.png)
+  ![Image](lab-report-1-pics/cat-direc-arg.png)
 
   Directory: `/home`
 
@@ -79,7 +79,7 @@
   This is an error as the `cat` command has no way of diaplaying the contents of directories.
 * __File Argument__
 
-  ![Image](cat-file-arg.png)
+  ![Image](lab-report-1-pics/cat-file-arg.png)
 
   Directory: `/home`
 
