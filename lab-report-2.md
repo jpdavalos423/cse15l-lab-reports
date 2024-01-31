@@ -52,3 +52,5 @@
 ## Part 3
 
 ### What I Learned
+
+One of the biggest things I learned this week includes manipulating and analyzing strings of URLs through servers in Java. I never knew how my computer could host its own server, which is a highly convenient way of testing my code. I also learned how to log onto a remote server and what public and private keys are used for.
