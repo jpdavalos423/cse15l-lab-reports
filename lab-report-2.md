@@ -18,6 +18,7 @@
   *  `parameters[3]` changes to "how was your day?"
 * The value of `chat` is concatnated with the new set of strings and stored into `chat`
 * The value of `regex` remains the same as it is meant to facilitate the splitting of strings
+* The value of `url` is changed to "http://localhost:4000/add-message?s=test&user=jpdavalos423"
 
  
 ![Image](lab-report-2-pics/using-ChatServer-2.png)
@@ -33,3 +34,4 @@
   *  `parameters[3]` changes to "pretty good how about you?"
 * The value of `chat` is concatnated with the new set of strings and stored into `chat`
 * The value of `regex` remains the same as it is meant to facilitate the splitting of strings
+* The value of `url` is changed to "http://localhost:4000/add-message?s=pretty%20good%20how%20about%20you?&user=anshsarda"
