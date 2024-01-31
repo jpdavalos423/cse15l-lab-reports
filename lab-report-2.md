@@ -7,7 +7,7 @@
 ## Using `ChatServer`
 ![Image](lab-report-2-pics/using-ChatServer-1.png)
 
-* The method called is `handleRequest`. 
+* The method called is `handleRequest`
 * Arguments used are parameters[1] and parameters[3] which correspond to `user` and `s`
   * `user` contains "jpdavalos"
   * `s` contains "how was your day?"
@@ -23,7 +23,7 @@
  
 ![Image](lab-report-2-pics/using-ChatServer-2.png)
 
-* The method called is `handleRequest`. 
+* The method called is `handleRequest`
 * Arguments used are `parameters[1]` and `parameters[3]` which correspond to `user` and `s`
   * `user` contains "anshsarda"
   * `s` contains "pretty good how about you?"
