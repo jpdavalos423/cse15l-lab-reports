@@ -1,10 +1,12 @@
 # Lab Report 2
 
-## Code for `ChatServer`
+## Part 1
+
+### Code for `ChatServer`
 
 ![Image](lab-report-2-pics/ChatServer-code.png)
 
-## Using `ChatServer`
+### Using `ChatServer`
 ![Image](lab-report-2-pics/using-ChatServer-1.png)
 
 * The method called is `handleRequest`
