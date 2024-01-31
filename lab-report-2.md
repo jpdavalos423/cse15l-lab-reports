@@ -37,3 +37,13 @@
 * The value of `chat` is concatnated with the new set of strings and stored into `chat`
 * The value of `regex` remains the same as it is meant to facilitate the splitting of strings
 * The value of `url` is changed to "http://localhost:4000/add-message?s=pretty%20good%20how%20about%20you?&user=anshsarda"
+
+## Part 2
+
+### Absolute path of private key
+![Image](lab-report-2-pics/private-key-path.png)
+
+### Absolute path of public key
+![Image](lab-report-2-pics/public-key-path.png)
+
+### Logging into ieng6 account without password
