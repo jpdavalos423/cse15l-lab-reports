@@ -47,3 +47,8 @@
 ![Image](lab-report-2-pics/public-key-path.png)
 
 ### Logging into ieng6 account without password
+![Image](lab-report-2-pics/login-to-ieng6.png)
+
+## Part 3
+
+### What I Learned
