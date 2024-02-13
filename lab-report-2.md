@@ -19,7 +19,13 @@
   - `parameters[2]` remains the same as `user`
   - `parameters[3]` changes to "how was your day?"
 - The value of `chat` is concatnated with the new set of strings and stored into `chat`
-  -  After mnethod call the value of chat is now:
+  -  Before method call the value of chat is:
+     ```
+     jpdavalos: hi
+     anshsarda: hello
+     jpdavalos: how was your day?
+     ```
+  -  After method call the value of chat is:
      ```
      jpdavalos: hi
      anshsarda: hello
@@ -27,7 +33,6 @@
      ```
      
 - The value of `regex` remains the same as it is meant to facilitate the splitting of strings
-- The value of `url` is changed to "http://localhost:4000/add-message?s=test&user=jpdavalos423"
 
 ![Image](lab-report-2-pics/using-ChatServer-2.png)
 
@@ -40,8 +45,20 @@
   - `parameters[2]` remains the same as `user`
   - `parameters[3]` changes to "pretty good how about you?"
 - The value of `chat` is concatnated with the new set of strings and stored into `chat`
+  -  Before method call the value of chat is:
+     ```
+     jpdavalos: hi
+     anshsarda: hello
+     jpdavalos: how was your day?
+     ```
+  -  After method call the value of chat is:
+     ```
+     jpdavalos: hi
+     anshsarda: hello
+     jpdavalos: how was your day?
+     anshdarda: pretty good how about you?
+     ```
 - The value of `regex` remains the same as it is meant to facilitate the splitting of strings
-- The value of `url` is changed to "http://localhost:4000/add-message?s=pretty%20good%20how%20about%20you?&user=anshsarda"
 
 ## Part 2
 
