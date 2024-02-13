@@ -23,7 +23,6 @@
      ```
      jpdavalos: hi
      anshsarda: hello
-     jpdavalos: how was your day?
      ```
   -  After method call the value of chat is:
      ```
