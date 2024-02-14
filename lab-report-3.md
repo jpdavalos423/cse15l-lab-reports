@@ -52,7 +52,7 @@ By flipping which array the elements are reversed into and reversed from changed
 
 ### find -type
 
-find -type f
+#### find -type f
 ```
 bash-3.2$ find technical/911report -type f
 technical/911report/chapter-13.4.txt
@@ -76,7 +76,7 @@ technical/911report/chapter-11.txt
 This command finds all the files in the given directory. This can be useful for searching for specific file that's needed.
 
 
-find -type d
+#### find -type d
 ```
 bash-3.2$ find technical -type d
 technical
@@ -94,3 +94,7 @@ technical/911report
 This command finds all the directories in the given directory. This can be useful for searching and accessing a directory that may be needed.
 
 ### find -mtime
+
+#### find -mtime -7
+
+#### find -mtime +30
