@@ -44,3 +44,8 @@ static int[] reversed(int[] arr) {
   return arr;
 }
 ```
+
+### Explanation for fix
+By flipping which array the elements are reversed into and reversed from changed quite a few things. First of all, the new array has yet to be initialized with any data so by placing these values into the original array will result in an array full of zeroes. It's possible to avoid initializing the new array to be exactly the same as the original by instead adding the reversed elements into this new array. After doing this, the original array is set to the newly reversed array and this original array is returned with the reversed values.
+
+## Part 2 - Researching Commands
