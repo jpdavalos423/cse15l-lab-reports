@@ -18,3 +18,6 @@ public void testReversed() {
   assertArrayEquals(new int[] {}, ArrayExamples.reversed(input1));
 }
 ```
+
+### Screenshots of symptom
+![Image](lab-report-3-pics/symptom-test.png)
