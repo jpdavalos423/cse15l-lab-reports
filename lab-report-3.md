@@ -159,4 +159,5 @@ bash-3.2$ find technical/911report -iname "ChAptEr-1.TXT"
 technical/911report/chapter-1.txt
 ```
 
-Information for all the commands was found at https://man7.org/linux/man-pages/man1/find.1.html
+
+**_Information for all the commands was found at https://man7.org/linux/man-pages/man1/find.1.html_**
