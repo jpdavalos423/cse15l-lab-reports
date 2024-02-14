@@ -114,6 +114,36 @@ technical/government/About_LSC/commission_report.txt
 #### find -mtime +30
 This command finds all the files that were modified over 30 days ago. This can be useful for finding old files that may not be used anymore and can be deleted.
 ```
-find technical -mtime +30 | head -n 10
+bash-3.2$ find technical -mtime +30
 
 ```
+
+### find -size
+
+#### find -size +1M
+This command finds all the files larger than 1 megabyte. This can be useful for managing disk space in a project and find which files are taking up the most space. 
+```
+bash-3.2$ find technical -size +1M
+
+```
+
+#### find -size -100k
+This command finds all the files smaller than 100 kilobytes. This can be useful for filtering out files of the size range.
+```
+bash-3.2$ find technical -size -100k | head -n 10
+technical
+technical/government
+technical/government/About_LSC
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+technical/government/About_LSC/Progress_report.txt
+technical/government/About_LSC/Strategic_report.txt
+technical/government/About_LSC/Comments_on_semiannual.txt
+technical/government/About_LSC/Special_report_to_congress.txt
+technical/government/About_LSC/CONFIG_STANDARDS.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+```
+
+### find -iname
+
+#### find  -iname 
+This
