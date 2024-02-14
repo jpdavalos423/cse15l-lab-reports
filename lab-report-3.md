@@ -96,7 +96,7 @@ technical/911report
 ### find -mtime
 
 #### find -mtime -7
-This command finds all the files that were modified in the last 7 days. This can be useful for finding which files are being worked on recently in a project.
+This command finds all the files that were modified in the span of the days of the number given. This can be useful for finding which files are being worked on recently in a project.
 ```
 bash-3.2$ find technical -mtime -7 | head -n 10
 technical
@@ -112,7 +112,7 @@ technical/government/About_LSC/commission_report.txt
 ```
 
 #### find -mtime +30
-This command finds all the files that were modified over 30 days ago. This can be useful for finding old files that may not be used anymore and can be deleted.
+This command finds all the files that were modified over the given number in days. This can be useful for finding old files that may not be used anymore and can be deleted.
 ```
 bash-3.2$ find technical -mtime +30
 
@@ -121,14 +121,14 @@ bash-3.2$ find technical -mtime +30
 ### find -size
 
 #### find -size +1M
-This command finds all the files larger than 1 megabyte. This can be useful for managing disk space in a project and find which files are taking up the most space. 
+This command finds all the files larger than the given size. This can be useful for managing disk space in a project and find which files are taking up the most space. 
 ```
 bash-3.2$ find technical -size +1M
 
 ```
 
 #### find -size -100k
-This command finds all the files smaller than 100 kilobytes. This can be useful for filtering out files of the size range.
+This command finds all the files smaller than the given size. This can be useful for filtering out files of the size range.
 ```
 bash-3.2$ find technical -size -100k | head -n 10
 technical
@@ -145,5 +145,17 @@ technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
 
 ### find -iname
 
-#### find  -iname 
-This
+#### find  -iname "chapter-1.txt"
+This command finds all the files with the given name case-insensitive. This can be useful for finding files regardless of their capatilization.
+```
+bash-3.2$ find technical/911report -iname "Chapter-1.txt"
+technical/911report/chapter-1.txt
+```
+
+#### find -iname "ChAptEr-1.TXT"
+This command finds all the files with the given name case-insensitive. As shown in the severly mistyped argument, the file is still found regardless.
+```
+bash-3.2$ find technical/911report -iname "ChAptEr-1.TXT"
+technical/911report/chapter-1.txt
+```
+
