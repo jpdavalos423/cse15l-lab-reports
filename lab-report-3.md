@@ -49,3 +49,48 @@ static int[] reversed(int[] arr) {
 By flipping which array the elements are reversed into and reversed from changed quite a few things. First of all, the new array has yet to be initialized with any data so by placing these values into the original array will result in an array full of zeroes. It's possible to avoid initializing the new array to be exactly the same as the original by instead adding the reversed elements into this new array. After doing this, the original array is set to the newly reversed array and this original array is returned with the reversed values.
 
 ## Part 2 - Researching Commands
+
+### find -type
+
+find -type f
+```
+bash-3.2$ find technical/911report -type f
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-1.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-9.txt
+technical/911report/chapter-8.txt
+technical/911report/preface.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+```
+This command finds all the files in the given directory. This can be useful for searching for specific file that's needed.
+
+
+find -type d
+```
+bash-3.2$ find technical -type d
+technical
+technical/government
+technical/government/About_LSC
+technical/government/Env_Prot_Agen
+technical/government/Alcohol_Problems
+technical/government/Gen_Account_Office
+technical/government/Post_Rate_Comm
+technical/government/Media
+technical/plos
+technical/biomed
+technical/911report
+```
+This command finds all the directories in the given directory. This can be useful for searching and accessing a directory that may be needed.
+
+### find -mtime
