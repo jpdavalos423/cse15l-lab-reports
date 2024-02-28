@@ -1,6 +1,8 @@
 # Lab Report 4
 
 ## Step 4
+
+![Image](lab-report-4-pics/step4.png)
 Keys pressed: `<up><enter>`
 
 The `ssh judavalos@ieng6.ucsd.edu` command is the most recent command ran on my local machine.
