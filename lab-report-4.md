@@ -38,7 +38,7 @@ Same as step 6 where I accessed the command to compile the java files in the dir
 # Step 9
 
 ![Image](lab-report-4-pics/step9.png)
-Keys pressed: `<control> r git a <enter>, <control> r git c <enter>, <control> r git p <enter>`
+Keys pressed: `<control> r git <space> a <enter>, <control> r git <space> c <enter>, <control> r git <space> p <enter>`
 
 I used `Control + r` again to search for each git command. I first used add, then committed, then pushed the change.
 
